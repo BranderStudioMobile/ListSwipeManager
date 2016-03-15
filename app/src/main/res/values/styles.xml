@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="sans_serif">
+        android:fontFamily="sans_serif"</style>
+
+    <style name="st_24_black" parent="sans_serif">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/_black</item>
+    </style>
+
+</resources>

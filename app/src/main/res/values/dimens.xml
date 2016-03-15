@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="_icon_wh">24dp</dimen>
+    <dimen name="_left">200dp</dimen>
+    <dimen name="_right">75dp</dimen>
+    <dimen name="_right_2">100dp</dimen>
+</resources>

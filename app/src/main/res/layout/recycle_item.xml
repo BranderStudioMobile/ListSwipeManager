@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/_list_1_accent">
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/left">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/color_r"
+                android:background="#f00"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/color_g"
+                android:background="#0f0"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/color_b"
+                android:layout_weight="1"
+                android:background="#00f" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_icon_wh"
+            android:layout_height="@dimen/_icon_wh"
+            android:id="@+id/right"
+            android:src="@drawable/ic_portrait_black_24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/swipe"
+            android:gravity="center"
+            android:background="#fbfad6">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                style="@style/st_24_black"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="_primary">#3F51B5</color>
+    <color name="_primaryDark">#303F9F</color>
+    <color name="_accent">#FF4081</color>
+    <color name="_black">#000</color>
+    <color name="_list_1_primary">#f7f25e</color>
+    <color name="_list_1_accent">#a1c1f9</color>
+    <color name="_list_2_primary">#f5d1f3</color>
+    <color name="_list_2_accent">#a1f9e7</color>
+</resources>
