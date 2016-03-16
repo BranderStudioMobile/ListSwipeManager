@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'brander.ua.listswipemanager'
+
+    publishedGroupId = 'ua.brander'
+    libraryName = 'ListSwipeManager'
+    artifact = 'listswipemanager'
+
+    libraryDescription = 'Simple library for fast right-left list item swiping.'
+
+    siteUrl = 'https://github.com/BranderStudioMobile/ListSwipeManager'
+    gitUrl = 'https://github.com/BranderStudioMobile/ListSwipeManager.git'
+
+    libraryVersion = '0.1.1'
+
+    developerId = 'branderstudio'
+    developerName = 'Alexey Sarapin'
+    developerEmail = 'hire.himik@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -24,3 +48,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile 'com.android.support:recyclerview-v7:23.2.0'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
